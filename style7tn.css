@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=IM+Fell+English+SC&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+header{
+	width: 100%;
+	margin: 20px auto;
+	
+}
+
+header li{
+	display: inline-block;
+	padding-right: 2px;
+}
+
+
+.div0{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.div1>h2{
+	display: flex;
+	font-size: 18px;
+	font-weight: bolder;
+	display: inline-block;
+	font-family: 'Courgette', cursive;
+}
+
+
+.div2>nav>ul{
+	margin-top: 10px;
+	display: inline-block;
+	font-family: 'Courgette', cursive;
+	
+}
+.div3{
+	background: url(image.jpg);
+	height: 410px;
+    
+}
+
+li:hover{
+	background-color: orange;
+}
+
+.one{
+	display: flex;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	padding-top: 90px;
+	font-family: 'Courgette', cursive;
+}	
+
+.two{
+	display: flex;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	padding-top: 10px;
+	font-family: 'IM Fell English SC', serif;
+}
+
+.id{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding-top: 80px;
+
+
+}
+
+
+
+.div4{
+	display: flex;
+	flex-direction: column;
+}
+
+
+i{
+   color: blue;
+   font-size: 50px;
+}
+
+.p1{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+	
+}
+
+.p2{
+	font-family: sans-serif;
+	font-family: 'IM Fell English SC', serif;
+}
+
+.div8{
+	width: 100%;
+	text-align: center;
+	background-color: lightblue;
+
+}
+
+.div9{
+	display: inline-flex;
+	background-color: lightblue;
+	width: 100%;
+	gap: 220px;
+	justify-content: space-evenly;
+
+}
+
+.p3{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+	
+
+}
+
+.p4{
+	font-family: sans-serif;
+	font-family: 'IM Fell English SC', serif;
+}
+
+.div14{
+	width: 100%;
+	text-align: center;
+	background-color: lightblue;
+}
+
+.div10{
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	gap: 5px;
+	text-align: center;
+}
+
+.div11{
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	gap: 5px;
+	text-align: center;
+}
+
+.div12{
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	gap: 5px;
+	text-align: center;
+}
+
+.div13{
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	gap: 5px;
+	text-align: center;
+}
+
+.p5{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: 'Courgette', cursive;
+
+}
+
+.p6{
+	font-family: 'IM Fell English SC', serif;
+
+}
+
+.p9{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: 'Courgette', cursive;
+}
+
+.p10{
+	font-family: 'IM Fell English SC', serif;
+}
+.p12{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: 'Courgette', cursive;
+}
+
+.p13{
+	font-family: 'IM Fell English SC', serif;
+}
+
+.p15{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: 'Courgette', cursive;
+}
+
+.p16{
+	font-family: 'IM Fell English SC', serif;
+}
+.but{
+	justify-content: center;
+}
+
+button{
+	background-color: gray;
+	width: 50px;
+	color: white;
+	font-family: 'IM Fell English SC', serif;
+}
+
+
+.div1{
+	width: 100%;
+}
+
+
+@media screen and (max-width: 480px){
+	.div3{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 480px){
+	.div4{
+		width: 100%;
+
+	}
+} 
+
+@media screen and (max-width: 480px){
+.div9{
+	display: grid;
+	justify-content: center;
+}
+}
+
+@media screen and (max-width: 480px){
+	.div14{
+		width: 100%;
+	}
+}
+
+
+
+
+
